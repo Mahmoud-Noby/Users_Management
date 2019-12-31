@@ -1,0 +1,12 @@
+[
+    {"position": 1, "name": "Hydrogen",  "mail": "test@test.com", "adminType": "Super Admin", "adminStatus": "Active"},
+    {"position": 2, "name": "Helium",    "mail": "test@test.com", "adminType": "Super Admin", "adminStatus": "InActive"},
+    {"position": 3, "name": "Lithium",   "mail": "test@test.com", "adminType": "Admin",       "adminStatus": "Active"},
+    {"position": 4, "name": "Beryllium", "mail": "test@test.com", "adminType": "Super Admin", "adminStatus": "Active"},
+    {"position": 5, "name": "Boron",     "mail": "test@test.com", "adminType": "Super Admi", "adminStatus": "InActive"},
+    {"position": 6, "name": "Carbon",    "mail": "test@test.com", "adminType": "Admin",       "adminStatus": "Active"},
+    {"position": 7, "name": "Nitrogen",  "mail": "test@test.com", "adminType": "Admin",       "adminStatus": "Active"},
+    {"position": 8, "name": "Oxygen",    "mail": "test@test.com", "adminType": "Admin",       "adminStatus": "InActive"},
+    {"position": 9, "name": "Fluorine",  "mail": "test@test.com", "adminType": "Super Admin", "adminStatus": "Active"},
+    {"position": 10, "name": "Neon",     "mail": "test@test.com", "adminType": "Super Admin", "adminStatus": "InActive"}
+  ]

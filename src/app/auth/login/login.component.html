@@ -1,0 +1,35 @@
+<div class="main-wraper">
+  <div class="header">
+    <h4>BeWell</h4>
+    <h5>Your Care..Your Way</h5>
+  </div>
+
+  <div class="login-wrap" fxLayout="row" fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="100px">
+
+    <div class="login-wrap__form" fxFlex="50"  fxLayoutAlign="end">
+      <form fxLayout="column" fxFlex="50" fxFlex.xs="100%" ngStyle.xs="padding: 0 10px; ">
+        <mat-form-field appearance="outline">
+          <mat-label>Email</mat-label>
+          <input matInput placeholder="Enter Your mail" autocomplete="off">
+          <mat-hint>you can login using registered email</mat-hint>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>Password</mat-label>
+          <input matInput placeholder="Enter Your mail" autocomplete="off">
+          <mat-hint>hint</mat-hint>
+        </mat-form-field>
+        <button mat-raised-button>Login</button>
+        <p>
+          <span>Forget Password ?,</span>
+          <a [routerLink]="['/forgetpassword']" class="form-container__link"> Click Here.</a>
+        </p>
+      </form>
+    </div>
+
+    <div class="login-wrap__text" fxFlex="50" ngStyle.xs="padding: 0 10px;  text-align: center;">
+      <h1>LOYALTY </h1>
+      <h1>PROGRAM</h1>
+    </div>
+  </div>
+</div>

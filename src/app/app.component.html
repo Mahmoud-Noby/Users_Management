@@ -1,0 +1,55 @@
+
+
+<mat-sidenav-container>
+    <!--side nave content-->
+    <mat-sidenav #sidenav role="navigation" opened disableClose mode="side">
+        <h2 class="sidenav_header">LOYALTY PROGRAM</h2>
+        <mat-nav-list role="list">
+            <a mat-list-item >
+                <mat-icon class="nav_icon">perm_identity</mat-icon> 
+                <span class="nav_caption">User Management </span>
+            </a>
+            <a mat-list-item > 
+                <mat-icon class="nav_icon">work</mat-icon> 
+                <span class="nav_caption">Merchants</span>
+            </a>
+            <a mat-list-item >
+                <mat-icon class="nav_icon">home</mat-icon> 
+                <span class="nav_caption">Branches</span>
+            </a>
+            <a mat-list-item >
+                <mat-icon class="nav_icon">card_giftcard</mat-icon> 
+                <span class="nav_caption">Reward</span>
+            </a>
+        </mat-nav-list>
+    </mat-sidenav>
+    <!--Page Content-->
+    <mat-sidenav-content>
+        <mat-toolbar color='primary'>
+            <div>
+                <button mat-icon-button (click)="sidenav.toggle()" fxHide fxShow.xl>
+                    <mat-icon>menu</mat-icon>
+                </button>
+            </div>
+            <div fxFlex fxLayout fxLayoutAlign="flex-end">
+
+                <button mat-button [matMenuTriggerFor]="menu">
+                    Welcome Name
+                    <mat-icon>expand_more</mat-icon>
+                </button>
+                <mat-menu #menu="matMenu">
+                <button mat-menu-item>Item 1</button>
+                <button mat-menu-item>Item 2</button>
+                </mat-menu>
+            </div>
+            
+        </mat-toolbar>
+        <!--App Content Here -->
+        <main>
+            <router-outlet></router-outlet>
+        </main>
+        <!--App Content Here-->
+    </mat-sidenav-content>
+
+</mat-sidenav-container>
+ 

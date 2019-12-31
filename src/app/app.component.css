@@ -1,0 +1,20 @@
+mat-sidenav-container, mat-sidenav, mat-sidenav-content{
+    height: 100%;
+}
+mat-sidenav{
+    width: 300px;;
+}
+.sidenav_header{
+    padding: 0 11px;
+}
+.nav_caption{
+    display: inline-block;
+    margin-left: 15px;
+    font-weight: 500;
+    color: #424141;
+    padding-top: 5px;
+}
+.nav_icon{
+    font-size: 30px;
+    display: inline-block;
+}
