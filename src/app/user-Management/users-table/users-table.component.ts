@@ -4,9 +4,6 @@ import {MatTableDataSource} from '@angular/material/table';
 import { User } from '../user.model';
 import { UsersService } from '../users.service';
 
-
-
-
 @Component({
   selector: 'app-users-table',
   templateUrl: './users-table.component.html',
@@ -35,8 +32,6 @@ export class UsersTableComponent implements OnInit {
       return data;
    });
  }
-
-
 
   ngOnInit() {       
     this.dataSource = new MatTableDataSource(); 

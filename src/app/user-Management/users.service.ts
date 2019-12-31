@@ -7,6 +7,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class UsersService {
+  // usersUrl = 'api/users.json'   --> local Api
    uersUrl = 'https://api.myjson.com/bins/1bhm3k';
    constructor (private http : HttpClient) {}
   getUsers():Observable<User[]> {
